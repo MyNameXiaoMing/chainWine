@@ -1,0 +1,316 @@
+body {
+  background: #f2f2f2;
+}
+
+.w {
+  width: 900px;
+  padding: 0;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+#logo {
+  padding: 10px 0;
+  float: none;
+  margin: 0;
+  position: relative;
+}
+
+#logo .b1 {
+  position: absolute;
+  background: url("../img/login-all-bg.png") 0 -131px no-repeat;
+  width: 111px;
+  height: 46px;
+  top: 18px;
+  margin-left: 20px;
+}
+
+#entry {
+  width: 900px;
+  height: 402px;
+  border: 5px solid #e8e8e8;
+  border-radius: 3px;
+  margin: 55px auto 0;
+  position: relative;
+}
+
+#entry .mc {
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  height: 400px;
+}
+
+#entry .coagent {
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  padding-right: 20px;
+  line-height: 50px;
+  border-top: 1px solid #f4f4f4;
+  height: auto;
+  width: 406px;
+  background-color: #fcfcfc;
+  text-align: left;
+}
+
+#entry .coagent ul {
+  margin-left: 60px;
+}
+
+#entry .coagent ul li {
+  float: left;
+  position: relative;
+}
+
+#entry .coagent ul li a {
+  width: 71px;
+}
+
+#entry .coagent ul li a span {
+  float: left;
+  padding-left: 10px;
+}
+
+#footer {
+  padding-bottom: 30px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer .copyright {
+  margin: 10px 0;
+}
+
+.QQ-icon {
+  width: 19px;
+  height: 18px;
+  display: block;
+  background: url("../img/icon-qww.png") -21px 0 no-repeat;
+  float: left;
+  margin: 15px 0px 0 0;
+}
+
+.weibo-icon {
+  width: 19px;
+  height: 18px;
+  display: block;
+  background: url("../img/icon-qww.png") 0px 0 no-repeat;
+  float: left;
+  margin: 15px 0px 0 0;
+}
+
+.weixin-icon {
+  width: 19px;
+  height: 18px;
+  display: block;
+  background: url("../img/icon-qww.png") -40px 0 no-repeat;
+  float: left;
+  margin: 15px 0px 0 0;
+}
+
+.line {
+  color: #ccc;
+  padding: 0 10px;
+}
+
+#entry-bg {
+  width: 460px;
+  height: 400px;
+  float: left;
+}
+
+.tab_content {
+  float: left;
+  margin-left: 55px;
+  height: 354px;
+  width: 320px;
+  overflow: hidden;
+  position: relative;
+}
+
+.tab_content .tab_tit {
+  height: 54px;
+  border-bottom: 1px solid #fbfbfb;
+}
+
+.tab_content .tab_tit li {
+  height: 54px;
+  line-height: 54px;
+  width: 160px;
+  text-align: center;
+  float: left;
+}
+
+.tab_content .tab_tit li a {
+  font-size: 18px;
+  width: 160px;
+  display: block;
+  line-height: 18px;
+  margin: 18px 0;
+}
+
+.tab_content .tab_cont {
+  height: 263px;
+}
+
+.tips {
+  position: relative;
+  background: #fef4e5;
+  color: #666;
+  border: 1px solid #f6c090;
+  width: 286px;
+  padding: 3px 0 3px 30px;
+  line-height: 15px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.tips i {
+  display: block;
+  width: 16px;
+  height: 17px;
+  overflow: hidden;
+  background: url(../img/pwd_icons.png) -104px -133px no-repeat;
+  position: absolute;
+  left: 10px;
+  z-index: 5;
+}
+
+.hidden {
+  display: none;
+}
+
+.tips_error {
+  position: relative;
+  background: #ffebeb;
+  color: #e4393c;
+  border: 1px solid #faccc6;
+  width: 286px;
+  padding: 3px 0 3px 30px;
+  line-height: 15px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.tips_error i {
+  display: block;
+  width: 16px;
+  height: 17px;
+  overflow: hidden;
+  background: url(../img/pwd_icons.png) -104px -49px no-repeat;
+  position: absolute;
+  left: 10px;
+  z-index: 5;
+}
+
+#entry .fore1 {
+  z-index: 10;
+  margin-bottom: 10px;
+  height: 38px;
+}
+
+#entry .fore2 {
+  z-index: 8;
+}
+
+#entry .fore3 {
+  z-index: 6;
+  height: 50px;
+  margin-top: 5px;
+}
+
+#entry .item {
+  line-height: 26px;
+  overflow: visible;
+  width: 320px;
+}
+
+#entry .item .item-ifo {
+  width: 100%;
+  position: relative;
+}
+
+#entry .item .item-ifo .text-area {
+  width: 318px;
+  height: 38px;
+  border: 1px solid #b8c1c8;
+  position: relative;
+}
+
+.text {
+  float: left;
+  position: relative;
+  height: 36px;
+  width: 267px;
+  margin-left: 38px;
+  line-height: 36px;
+  font-size: 14px;
+  font-family: arial, SimSun;
+  color: #4a4a4f;
+  text-indent: 14px;
+  z-index: 8;
+  margin-top: -39px;
+}
+
+.i-name {
+  width: 38px;
+  height: 38px;
+  display: block;
+  float: left;
+  background: url(../img/pwd_icons.png) 0px 0px no-repeat;
+}
+
+#entry .item-ifo .ico.i-pass {
+  width: 38px;
+  height: 38px;
+  display: block;
+  float: left;
+  background: url(../img/pwd_icons.png) -48px 0px no-repeat;
+}
+
+#entry .fore4 {
+  height: 37px;
+  margin-top: 10px;
+  z-index: 3;
+  color: #98999a;
+}
+
+#entry .mar {
+  margin-right: 10px;
+}
+
+#entry .item .item-ifo .fog {
+  display: inline-block;
+  float: right;
+  position: relative;
+  right: 4px;
+  color: #98999a;
+}
+
+#entry .item .item-ifo .fog a {
+  color: #98999a;
+}
+
+#entry .checkbox {
+  margin: 0px 12px 3px 0;
+  vertical-align: middle;
+}
+
+#entry .btn-entry:hover {
+  background-color: #ff3b36;
+}
+
+#entry .btn-entry {
+  background-color: #f6342f;
+  border: medium none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Microsoft YaHei";
+  font-size: 18px;
+  height: 43px;
+  line-height: 43px;
+  overflow: hidden;
+  width: 321px;
+  letter-spacing: 5px;
+}

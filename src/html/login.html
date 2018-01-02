@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>登录</title>
+    <script src="../lib/jquery-3.2.1.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../lib/jquery.cookie.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/normal.css" />
+    <link rel="stylesheet" type="text/css" href="../css/login.css" />
+</head>
+<body>
+    <div class="w">
+        <div id="logo">
+            <a href="http://www.zhongjiu.cn/">
+                <img src="http://img6.zhongjiu.cn/resourceb2b2c/Storage/Plat/ImageAd/logo.png" alt="Himall" height="60">
+            </a>
+            <b class="b1"></b>
+        </div>
+    </div>
+    <div class="w1" id="entry">
+        <div class="mc" id="bgDiv">
+            <div id="entry-bg">
+                <img src="http://img6.zhongjiu.cn/resourceb2b2c/Storage/Plat/Site/pcloginpic.png">
+            </div>
+            <div class="tab_content">
+                <ul class="tab_tit">
+                    <li class="active">
+                        <a href="javascript:void(0)" class="sao">扫码登录</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" style="font-weight:bold;color:#e54b54">账户登录</a>
+                    </li>
+                </ul>
+                <div class="tab_cont">
+                    <div class="form ">
+                        <!--<h1>欢迎登陆</h1>-->
+                        <!--tip start-->
+                        <div class="tips ">
+                            <i></i>
+                            <em>公共场所不建议自动登录，以防账号丢失</em>
+                        </div>
+                        <div class="tips_error hidden">
+                            <i></i>
+                            <em>公共场所不建议自动登录，以防账号丢失</em>
+                        </div>
+                        <div id="loginname_error" class="tips_error hidden">
+                            <i></i>
+                            <em>公共场所不建议自动登录，以防账号丢失</em>
+                        </div>
+                        <div id="loginpwd_error" class="tips_error hidden">
+                            <i></i>
+                            <em>公共场所不建议自动登录，以防账号丢失</em>
+                        </div>
+                        <div id="checkCode_error" class="tips_error hidden">
+                            <i></i>
+                            <em></em>
+                        </div>
+                        <div class="item fore1">
+                            <div class="item-ifo">
+                                <div class="text-area">
+                                    <div class="i-name ico"></div>
+                                    <input id="loginname" name="loginname" class="text" placeholder="用户名" tabindex="1" autocomplete="off" sta="2" value="" type="text">
+                                </div>
+                                <label id="loginname_succeed" class="blank invisible succeed"></label>
+                                <label id="loginname_error" class="error" style="display:none;"></label>
+                            </div>
+                        </div>
+                        <div class="item fore2">
+                            <div class="item-ifo">
+                                <div class="text-area">
+                                    <div class="i-pass ico"></div>
+                                    <input id="password" name="password" class="text highlight2" placeholder="密码" tabindex="2" autocomplete="off" sta="2" type="password">
+                                </div>
+                                <label id="loginpwd_succeed" class="blank invisible succeed"></label>
+                                <label id="loginpwd_error" class="error" style="display:none;"></label>
+                            </div>
+                        </div>
+                        <div class="item fore3" id="checkCodeArea" style="display:none;margin:15px 0 0 0;">
+                            <div class="item-ifo">
+                                <input id="checkCodeBox" class="text text-1" name="authcode" tabindex="6" maxlength="4" style="ime-mode:disabled;width: 40%;float: left;margin: 0;text-align: center;text-indent: 0;border: 1px solid #b8c1c8;" sta="0" placeholder="验证码" type="text">
+                                <label class="img">
+                                    <img id="checkCodeImg" src="/Login/GetCheckCode">
+                                </label>
+                                <label class="ftx23 hline">看不清？<br><a href="javascript:void(0)" id="checkCodeChange" class="flk13">换一张</a></label>
+                                <label id="authcode_succeed" class="blank invisible"></label>
+                                <label id="checkCode_error" class="error" style="display: none;"></label>
+                            </div>
+                        </div>
+                        <input name="machineNet" id="machineNet" value="" class="hide" type="hidden">
+                        <input name="machineCpu" id="machineCpu" value="" class="hide" type="hidden">
+                        <input name="machineDisk" id="machineDisk" value="" class="hide" type="hidden">
+                        <div class="item fore4" id="autoentry">
+                            <div class="item-ifo" name="__itemifo">
+                                <label class="mar"><input id="autoLogin" class="checkbox" name="" type="checkbox">自动登录</label>
+                                <p class="fog">
+                                    <a href="/findpassword">忘记密码</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item login-btn2013" id="__divlogin">
+                            <input class="btn-img btn-entry" id="loginsubmit" value="登录" type="button">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="coagent">
+            <ul>
+                <li><b></b><a href=""><b class="QQ-icon"></b><span>QQ</span></a><span class="line">|</span></li>
+                <li><b></b><a href=""><b class="weibo-icon"></b><span>微博</span></a><span class="line">|</span></li>
+                <li><b></b><a href=""><b class="weixin-icon"></b><span>微信</span></a><span class="line">|</span></li>
+                <li><a href=""><span>立即注册</span></a></li>
+            </ul>
+        </div>
+    </div>
+     <div class="w">
+        <div id="footer">
+            <div class="copyright">Copyright © 2018 &nbsp;&nbsp;中酒网&nbsp;版权所有</div>
+        </div>
+    </div>
+</body>
+</html>
