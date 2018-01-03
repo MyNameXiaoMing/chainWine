@@ -1,0 +1,141 @@
+.ensure {
+    width: 100%;
+    height: 108px;
+    border-bottom: 1px solid #d6d6d6;
+    background: #f8f8f8;
+    dl {
+        margin-right: 36px;
+        margin-top: 33px;
+        .zhengpin {
+            background: url("../img/icon.png") 0 -37px no-repeat;
+        }
+        .lingjun {
+            background: url("../img/icon.png") -57px -37px no-repeat;
+        }
+        .tuihuo {
+            background: url("../img/icon.png") -125px -37px no-repeat;
+        }
+        .peisong {
+            background: url("../img/icon.png") -181px -37px no-repeat;
+        }
+        .koubei {
+            background: url("../img/icon.png") -241px -37px no-repeat;
+        }
+        .ser {
+            background: url("../img/icon.png") -301px -37px no-repeat;
+        }
+        dt{
+            width: 55px;
+            height: 40px;
+        }
+        dd{ 
+            h3 {
+                font-size: 16px;
+                color: #313131;
+                padding-bottom: 2px;
+            }
+            p{
+                font-size: 13px;
+                color: #666666;
+            }
+        }
+    }
+}
+.fservice {
+    width: 100%;
+    height: 189px;
+    background: #f3f3f3;
+    padding-top: 35px;
+    dl.linkothers {
+        width: 200px;
+        margin-top: 5px;
+        a{
+            margin-bottom: 20px;
+            display: block;
+            height: auto;
+            line-height: normal;
+        }
+    }
+    dl{
+        width: 141px;
+        float: left;
+    }
+    dt {
+        height: 36px;
+        line-height: 36px;
+        font-size: 15px;
+        font-weight: bold;
+        color: #313131;
+    }
+    dd a{
+        height: 24px;
+        line-height: 24px;
+    }
+}
+.fservice dl.web, .fservice dl.weixin {
+    float: right;
+    width: 110px;
+}
+.fservice dl.weixin {
+    margin-right: 25px;
+}
+.fservice dl.web, .fservice dl.weixin {
+    margin-top: -10px;
+}
+.fservice dl.web dt, .fservice dl.weixin dt, .fservice dl.web dd, .fservice dl.weixin dd {
+    text-align: center;
+}
+.fservice dl.weixin dd {
+    background: url("../img/wx.jpg") center top no-repeat;
+    padding-top: 90px;
+    display: block;
+}
+.fservice dl.web dd {
+    background: url("../img/mob.jpg") center top no-repeat;
+    padding-top: 90px;
+    display: block;
+}
+.link {
+    height: 39px;
+    line-height: 39px;
+    background-color: #313131;
+    text-align: center;
+    clear: both;
+}
+.link a:first-child {
+    border-left: 0 none;
+}
+
+.link a {
+    padding: 0 14px;
+    border-left: 1px solid #fff;
+    text-align: center;
+    font-size: 13px;
+    color: #FFF;
+}
+.copyright {
+    height: 110px;
+    text-align: center;
+    p{
+        color: #666;
+        padding: 10px 0 0px;
+    }
+}
+.beian {
+    margin: 0 auto;
+    text-align: center;
+    .beian a {
+        display: inline-block;
+        width: 114px;
+        height: 41px;
+        margin: 0 0 0 5px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.wrap1190 {
+    width: 1190px;
+    margin: 0 auto;
+}

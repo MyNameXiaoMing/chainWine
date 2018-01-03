@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>购物车</title>
+    <link rel="stylesheet" type="text/css" href="../css/normal.css" />
+    <link rel="stylesheet" type="text/css" href="../css/buyCar.css" />
+</head>
+<body>
+    <div class="top">
+    <div class="warp cl">
+        <span class="top-link">
+            您好，欢迎来到 <em class="s-name">中酒网！</em>
+                <a href="/">去首页</a>
+            
+        </span>
+        <ul class="login-regin">
+                <li class="L-line"> <a href="/Login">请登录</a></li>
+                <li> <a href="/Register">免费注册</a></li>
+        </ul>
+
+
+        <ul class="quick_list">
+
+            <li class="sitemap dropdown">
+                <span class="outline"></span>
+                <span class="blank"></span>
+                <a href="/UserCenter/home">我的中酒网<b></b></a>
+
+                <div class="dropdown-menu">
+                    <ol>
+                        <li><a href="/UserOrder">已买到的商品</a></li>
+                        <li><a href="/productConcern">我关注的商品</a></li>
+                        <li><a href="/shopConcern">我关注的店铺</a></li>
+                    </ol>
+                </div>
+            </li>
+            <li><em class="shopping-cart"></em><a target="_blank" href="/cart/cart">购物车<em><span id="shopping-amount">0</span></em>件</a></li>
+            <li class="moblie-qrcode dropdown">
+
+                <span class="outline"></span>
+                <span class="blank"></span>
+                <a href="javascript:void(0)">微信端</a>
+                    <div class="dropdown-menu">
+                        <img src="http://img6.zhongjiu.cn/resourceb2b2c/Storage/Plat/Site/qrCode.png" width="90" height="90">
+                    </div>
+            </li>
+                <li class="app-qrcode dropdown service">
+
+                    <span class="outline"></span>
+                    <span class="blank"></span>
+                    <a target="_blank" href="http://pro.zhongjiu.cn/20141209/shouji/shouji.html">APP</a>
+                    <div class="dropdown-menu">
+                         <!--Base64显示-->
+                        <img width="90" height="90" src="http://img5.zhongjiu.cn/mob.png">
+                        <h3 style="text-align:center;">扫描二维码</h3>
+                        <p style="text-align:center;">下载手机客户端</p>
+                    </div>  
+                </li>
+            <li class="service dropdown">
+                <span class="outline"></span>
+                <span class="blank"></span>
+                <a href="/SellerAdmin">卖家中心<b></b></a>
+
+                <div class="dropdown-menu">
+                    <ol>
+                        <li><a href="/SellerAdmin">商家入驻</a></li>
+                       
+                             
+                       
+
+                    </ol>
+                </div>
+            </li>
+            <li class="service dropdown">
+                  <span class="outline"></span>
+                  <span class="blank"></span>
+                  <a href="http://zhongjiu.cn/SellerAdmin">网站导航<b></b></a>
+
+                  <div class="dropdown-menu dropdown-menu-list">
+                      <ul>
+                          <li>
+                              <h3>买酒</h3>
+                              <div class="dropdown-menu-listcont">
+                                  <a href="http://www.zhongjiu.cn/list/2-0-0-1-1-1.htm" target="_blank">白酒</a>
+                                  <a href="http://www.zhongjiu.cn/list/101-0-0-1-1-1.htm" target="_blank">葡萄酒</a>
+                                  <a href="http://www.zhongjiu.cn/list/502-0-0-1-1-1.htm" target="_blank">洋酒</a>
+                                  <a href="http://www.zhongjiu.cn/list/565-0-0-1-1-1.htm" target="_blank">黄酒</a>
+                                  <a href="http://pro.zhongjiu.cn/20161230/nhzhengx.html" target="_blank">整箱</a>
+                                  <a href="http://pro.zhongjiu.cn/20160919/huny.html" target="_blank">婚庆</a>
+                              </div>
+                          </li>
+                          <li class="li_even_bg">
+                              <h3>品牌</h3>
+                              <div class="dropdown-menu-listcont">
+                                  <a href="http://www.zhongjiu.cn/list/2-323-0-1-1-1.htm" target="_blank">茅台</a>
+                                  <a href="http://www.zhongjiu.cn/list/2-322-0-1-1-1.htm" target="_blank">五粮液</a>
+                                  <a href="http://www.zhongjiu.cn/list/2-325-0-1-1-1.htm" target="_blank">洋河</a>
+                                  <a href="http://www.zhongjiu.cn/list/2-838-0-1-1-1.htm" target="_blank">天佑德</a>
+                                  <a href="http://www.zhongjiu.cn/list/2-449-0-1-1-1.htm" target="_blank">红星</a>
+                                  <a href="http://www.zhongjiu.cn/list/2-538-0-1-1-1.htm" target="_blank">牛栏山</a>
+                                  <a href="http://www.zhongjiu.cn/list/2-326-0-1-1-1.htm" target="_blank">泸州老窖</a>
+                                  <a href="http://www.zhongjiu.cn/list/101-697-0-1-1-1.htm" target="_blank">拉菲</a>
+                                  <a href="http://www.zhongjiu.cn/list/101-626-0-1-1-1.htm" target="_blank">张裕</a>
+                              </div>
+                          </li>
+                          <li>
+                              <h3>其他</h3>
+                              <div class="dropdown-menu-listcont">
+                                  <a href="http://www.zhongjiu.cn/Help.htm" target="_blank">帮助中心</a>
+                                  <a href="http://www.zhongjiu.cn/brandarticle.htm" target="_blank">品牌资讯</a>
+                                  <a href="http://www.zhongjiu.cn/sitemap.htm" target="_blank">品牌导航</a>
+                                  <a href="http://pro.zhongjiu.cn/20161207/xpjd.html" target="_blank">新品推荐</a>
+                                  <a href="http://www.zhongjiu.cn/IntegralMall" target="_blank">积分商城</a>
+                                  <a href="http://pro.zhongjiu.cn/20141209/shouji/shouji.html" target="_blank">APP下载</a>
+                              </div>
+                          </li>
+                          <li class="li_even_bg">
+                              <p class="hot-tel"><span>订购热线：</span><strong>400-798-9999</strong></p>
+                          </li>
+                      </ul>
+                  </div>
+              </li>
+              <li class="service dropdown">
+                <span class="outline"></span>
+                <span class="blank"></span>
+                <a href="javascript:void(0)">订购热线：400-798-9999<!--<b></b>--></a>
+
+                <!--<div class="dropdown-menu">
+                    <ol>
+                        <li><a href="/Article/Category">帮助中心</a></li>
+                        <li class=""><a href="/OrderRefund">售后服务</a></li>
+                        <li><a href="/OrderComplaint">投诉中心</a></li>
+                    </ol>
+                </div>-->
+            </li>            
+        </ul>
+    </div>
+</div>
+
+
+<div class="w990 w1 cl" style="height:95px;">
+    <div id="logo"><a href="/"><img src="http://img6.zhongjiu.cn/resourceb2b2c/Storage/Plat/ImageAd/logo.png" height="60" title="返回商城首页" alt="返回商城首页"></a>
+    </div>
+    <div class="progress cl">
+        <ul class="progress-1 pro-c1">
+            <li class="step-1">1.我的购物车</li>
+            <li class="step-2">2.填写核对订单信息</li>
+            <li class="step-3">3.成功提交订单</li>
+        </ul>
+    </div>
+</div>
+
+<div class="w990 cart">
+    <div class="cart-hd group"><h2>我的购物车</h2></div>
+    <div id="show">
+        <div class="cart-inner cart-empty">
+            <div class="cart-list">
+                <div class="cart-thead cl">
+                    <div class="column t-checkbox form"><input type="checkbox" name="checkAll" checked="" value=""><label for="">全选</label></div>
+                    <div class="column t-goods">商品</div>
+                    <div class="column t-price">商城价</div>
+                    <div class="column t-quantity">数量</div>
+                    <div class="column t-action">操作</div>
+                </div>
+                <div id="product-list" class="cart-tbody">
+                        <div style=" padding:30px 0; background:url('/Images/dg_loading.gif')  center no-repeat;"></div>
+                </div>
+                
+                <div class="ui-ceilinglamp-1">
+                    <div class="cart-dibu">
+                        <div class="cart-total-2014">
+                            <span class="column t-checkbox form" style="margin-right:10px;">
+                                <input type="checkbox" checked="" name="checkAll" value="" class="jdcheckbox" style="margin: 15px 5px 0 19px;">
+                                <label for="">全选</label>
+                            </span>
+                            <span class="delete" style="margin-right:10px;">
+                                <b></b>
+                                <a href="javascript:void(0);" id="remove-batch">删除</a>
+                            </span>
+                            <span id="selectedCount" style="color:#e4393c;">0</span> 件商品
+                            <div class="cart-button">
+                                <a class="checkout" href="javascript:void(0);" id="toSettlement"><b></b>去结算</a>
+                            </div>
+                            <div class="total fr">总计（不含运费）：<span id="finalPrice">¥ 0</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cart-recommend" id="cartrecommend">
+        <h3><a href="#">商品推荐</a></h3>
+        <ul class="clearfix">
+                    <li>
+                        <a title="拉菲传奇波尔多 750ml（6瓶装）" href="/productdetail/3568.htm" target="_blank">
+                            <img width="182" height="182" src="http://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/3568/1_220.png">
+                            <i>去购买 &gt;</i>
+                        </a>
+                        <p><a href="/productdetail/3568.htm" target="_blank">拉菲传奇波尔多 750ml（6瓶装）</a></p>
+                    </li>
+                    <li>
+                        <a title="52°出口型白西凤绵柔凤香型500ml（6瓶装）" href="/productdetail/3878.htm" target="_blank">
+                            <img width="182" height="182" src="http://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/3878/1_220.png">
+                            <i>去购买 &gt;</i>
+                        </a>
+                        <p><a href="/productdetail/3878.htm" target="_blank">52°出口型白西凤绵柔凤香型500ml（6瓶装）</a></p>
+                    </li>
+                    <li>
+                        <a title="52°鸭溪窖-古酿 500ml （2瓶装）" href="/productdetail/80329.htm" target="_blank">
+                            <img width="182" height="182" src="http://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/80329/1_220.png">
+                            <i>去购买 &gt;</i>
+                        </a>
+                        <p><a href="/productdetail/80329.htm" target="_blank">52°鸭溪窖-古酿 500ml （2瓶装）</a></p>
+                    </li>
+                    <li>
+                        <a title="52°贵州茅台集团 茅台醇原浆 V20 500ml （6瓶装）" href="/productdetail/80655.htm" target="_blank">
+                            <img width="182" height="182" src="http://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/80655/1_220.png">
+                            <i>去购买 &gt;</i>
+                        </a>
+                        <p><a href="/productdetail/80655.htm" target="_blank">52°贵州茅台集团 茅台醇原浆 V20 500ml （6瓶装）</a></p>
+                    </li>
+                    <li>
+                        <a title="恋爱季甜白高泡 750ml + 恋爱季甜桃红高泡葡萄酒 750ml" href="/productdetail/80787.htm" target="_blank">
+                            <img width="182" height="182" src="http://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/80787/1_220.png">
+                            <i>去购买 &gt;</i>
+                        </a>
+                        <p><a href="/productdetail/80787.htm" target="_blank">恋爱季甜白高泡 750ml + 恋爱季甜桃红高泡葡萄酒 750ml</a></p>
+                    </li>
+                    <li>
+                        <a title="52° 五粮液股份有限公司 五星级  500ml（两瓶装）" href="/productdetail/81335.htm" target="_blank">
+                            <img width="182" height="182" src="http://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/81335/1_220.png">
+                            <i>去购买 &gt;</i>
+                        </a>
+                        <p><a href="/productdetail/81335.htm" target="_blank">52° 五粮液股份有限公司 五星级  500ml（两瓶装）</a></p>
+                    </li>
+
+        </ul>
+    </div>
+
+</div>
+</body>
+</html>

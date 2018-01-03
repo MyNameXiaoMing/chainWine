@@ -1,0 +1,384 @@
+@charset "UTF-8";
+.w {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.crumb {
+  font-family: '微软雅黑';
+  line-height: 22px;
+  height: 22px;
+  padding: 12px 0;
+  border-bottom: 1px solid #dbdbdb;
+  font-size: 14px;
+  color: #373a40;
+}
+
+.crumb .total-p {
+  float: right;
+  color: #373a40;
+  padding-right: 22px;
+}
+
+.crumb .total-p strong {
+  color: #f00f34;
+  padding: 0 5px;
+}
+
+.S-content-b {
+  padding-top: 16px;
+  margin-top: 2px;
+  /* border-top: 1px dotted #dbdbdb; */
+}
+
+.left {
+  float: left;
+}
+
+.right-extra {
+  float: right;
+  width: 990px;
+}
+
+.clr {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
+
+.RC-top {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  background-color: #f8f9f8;
+  margin-bottom: 20px;
+}
+
+#select {
+  margin-bottom: 0;
+  zoom: 1;
+}
+
+#select .mc {
+  overflow: visible;
+}
+
+.attr {
+  width: 1000px;
+  overflow: hidden;
+  zoom: 1;
+  position: relative;
+}
+
+.a-key {
+  float: left;
+  width: 65px;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 15px;
+  font-size: 12px;
+  color: #373a40;
+  line-height: 51px;
+}
+
+.a-values {
+  float: left;
+  position: relative;
+  width: 835px;
+  border-bottom: 1px dotted #dcdcdc;
+  padding: 12px 0;
+  padding-right: 85px;
+}
+
+.brand-attr .a-key {
+  margin-top: 10px;
+  line-height: 38px;
+}
+
+.brand-attr .a-key ul.f-list {
+  width: 835px;
+  padding-right: 85px;
+  height: auto;
+  overflow: hidden;
+}
+
+.brand-attr .a-key ul.f-list li {
+  margin-top: 10px;
+  margin-right: 8px;
+  float: left;
+  border: 1px dotted #dbdbdb;
+  width: 110px;
+  height: 38px;
+  overflow: hidden;
+}
+
+.brand-attr .a-key ul.f-list li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 38px;
+  background: #fff;
+}
+
+.brand-attr .a-key ul.f-list li a img {
+  width: 70px;
+  height: 35px;
+}
+
+.brand-attr .a-values {
+  float: left;
+  position: relative;
+  width: 835px;
+  border-bottom: 1px dotted #dcdcdc;
+  padding: 12px 0;
+  padding-right: 85px;
+}
+
+.brand-attr .a-values .v-fold {
+  height: 60px;
+  overflow: hidden;
+}
+
+.brand-attr .a-values .v-option {
+  position: absolute;
+  right: 17px;
+  top: 23px;
+}
+
+.brand-attr .a-values .o-more {
+  width: 16px;
+  height: 14px;
+  position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.brand-attr .a-values .o-more.fold b {
+  border-bottom: 4px solid #999999;
+  border-left: 3px dashed transparent;
+  border-right: 3px dashed transparent;
+  border-top: none;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.attr ul.f-list {
+  width: 835px;
+  padding-right: 85px;
+  height: auto;
+  overflow: hidden;
+}
+
+.brand-attr ul.f-list li {
+  margin-top: 10px;
+  margin-right: 8px;
+  float: left;
+  border: 1px dotted #dbdbdb;
+  width: 110px;
+  height: 38px;
+  overflow: hidden;
+}
+
+.brand-attr ul.f-list li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 38px;
+  background: #fff;
+}
+
+.brand-attr ul.f-list li a img {
+  width: 70px;
+  height: 35px;
+}
+
+.brand-attr ul.f-list li a b {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 38px;
+}
+
+.selected-c .a-values, .prop-attrs .a-values, .brand-attr .a-values {
+  float: left;
+  position: relative;
+  width: 835px;
+  border-bottom: 1px dotted #dcdcdc;
+  padding: 12px 0;
+  padding-right: 85px;
+}
+
+.mc .a-values .v-unfold {
+  height: auto;
+  overflow: visible;
+}
+
+.mc .a-values .v-option {
+  position: absolute;
+  right: 17px;
+  top: 12px;
+}
+
+.prop-attrs .v-fold .f-list li {
+  float: left;
+  margin-right: 30px;
+  line-height: 26px;
+  font-size: 13px;
+}
+
+.prop-attrs .v-fold .f-list li a {
+  color: #6b6c6e;
+}
+
+#filter {
+  height: 46px;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 1px 0;
+}
+
+#filter .fore1 {
+  height: 28px;
+  overflow: hidden;
+  padding: 8px 20px 8px 15px;
+  border-top: 1px dotted #dbdbdb;
+  border-bottom: 1px dotted #dbdbdb;
+}
+
+#filter #top_pagi {
+  width: 90px;
+  float: right;
+}
+
+#filter #top_pagi span {
+  height: 28px;
+  line-height: 20px;
+  padding: 5px 0 0 0;
+  border-radius: 0;
+  color: #999;
+}
+
+.pagin {
+  padding: 0 10px 10px 0;
+}
+
+.pagin a {
+  color: #666;
+}
+
+.pagin .text {
+  width: 100px;
+  display: block;
+}
+
+.pagin .text i {
+  font-style: normal;
+  font-weight: bold;
+  color: #e3393c;
+}
+
+.pagin a {
+  vertical-align: middle;
+  padding: 3px 10px;
+  border: 1px solid #ccc;
+  margin-left: 2px;
+  overflow: hidden;
+  -webkit-border-radius: 5px;
+}
+
+#filter dl, #filter dt, #filter dd {
+  float: left;
+  line-height: 26px;
+}
+
+#filter .order .curr {
+  color: #000004;
+  font-weight: bold;
+}
+
+#filter .order .curr a {
+  color: #000004;
+  font-weight: bold;
+}
+
+#filter .order dd {
+  height: 28px;
+  line-height: 28px;
+  position: relative;
+}
+
+#filter .order a {
+  display: block;
+  padding-right: 40px;
+  color: #494e52;
+}
+
+#filter .jdzy i {
+  display: block;
+  float: left;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #dfdfdf;
+  margin: 5px 5px 0 0;
+}
+
+#refilter .mt {
+  height: 14px;
+  padding-left: 9px;
+  line-height: 14px;
+  margin-bottom: 20px;
+}
+
+#refilter .mt h2, #refilter .mt h2 a {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+
+#refilter .hover b {
+  border-top: 5px solid #333;
+  border-left: 5px solid transparent;
+  border-right: 5px dashed transparent;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
+#refilter .item h3 {
+  overflow: hidden;
+  height: 14px;
+  line-height: 14px;
+  padding-left: 12px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#refilter .item h3 a {
+  color: #333;
+  font-weight: bold;
+}
+
+#refilter .hover ul {
+  display: block;
+}
+
+#refilter .item li {
+  height: 13px;
+  line-height: 12px;
+  padding-left: 36px;
+  padding-top: 1px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#refilter .item li a {
+  color: #6b6c6e;
+}
