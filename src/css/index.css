@@ -1,0 +1,444 @@
+.content {
+  width: 1190px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content_re {
+  width: 1190px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+
+.floor-hdfirst {
+  margin-top: 20px;
+}
+
+.floor-hd2 {
+  height: 35px;
+  border-bottom: 1px solid #c9c9c9;
+  background-color: #fff;
+  margin-bottom: 4px;
+}
+
+.floor-hd2 ul {
+  float: left;
+  line-height: 35px;
+  margin-right: 20px;
+  margin-top: -2px;
+}
+
+.floor-hd2 ul li {
+  height: 35px;
+  width: 185px;
+  margin-left: 0;
+  cursor: pointer;
+  text-align: center;
+  line-height: 35px;
+  font-size: 16px;
+  color: #666666;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  border-top: 2px solid #ececec;
+  background: #f9f9f9;
+}
+
+.floor-hd2 ul li.active {
+  border-top: 2px solid #cc0000;
+  border-bottom: 1px solid #fff;
+  height: 35px;
+  color: #cc0000;
+  line-height: 35px;
+  background: #fff;
+  float: left;
+}
+
+.gengduo {
+  float: right;
+  font-size: 16px;
+  line-height: normal;
+  line-height: 30px;
+}
+
+.content_recont {
+  overflow: hidden;
+}
+
+.content_recont ul {
+  width: 1206px;
+}
+
+.content_recont ul li {
+  float: left;
+  width: 230px;
+  height: 220px;
+  overflow: hidden;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.floor {
+  margin-bottom: 30px;
+}
+
+.floor .content-left {
+  width: 230px;
+  height: 450px;
+  float: left;
+  background-color: #fbfbfb;
+  margin-right: 10px;
+  position: relative;
+}
+
+.floor .content-left .slide {
+  width: 230px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+}
+
+.floor .content-left .slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.floor .content-left .cata-flo {
+  width: 230px;
+  height: 124px;
+  position: absolute;
+  left: 0;
+  bottom: 185px;
+  overflow: hidden;
+}
+
+.floor .content-left table {
+  width: 186px;
+  height: 98px;
+  margin: 26px auto;
+}
+
+.floor .content-left table td {
+  height: 24px;
+  width: 83px;
+  text-align: left;
+  line-height: 24px;
+  float: left;
+  overflow: hidden;
+}
+
+.content-brand {
+  float: left;
+  width: 230px;
+  height: 171px;
+  position: absolute;
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+}
+
+.content-brand .prev {
+  width: 9px;
+  height: 14px;
+  background-image: url(http://www.zhongjiu.cn/Areas/Web/Images/Himall_web.png);
+  background-repeat: no-repeat;
+  background-position: -1351px -26px;
+  position: absolute;
+  left: 4px;
+  top: 62px;
+  cursor: pointer;
+}
+
+.content-brand .next {
+  width: 9px;
+  height: 14px;
+  background-image: url(http://www.zhongjiu.cn/Areas/Web/Images/Himall_web.png);
+  background-repeat: no-repeat;
+  background-position: -1377px 0px;
+  position: absolute;
+  right: 4px;
+  top: 62px;
+  cursor: pointer;
+}
+
+.content-brand .brand-A {
+  width: 188px;
+  height: 142px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.content-brand .brand-A .brandA-wrap {
+  width: 2000px;
+  height: 142px;
+  position: relative;
+}
+
+.content-brand .brand-A .brandA-wrap .scroll-A {
+  width: 188px;
+  height: 142px;
+  float: left;
+  position: relative;
+  margin: 20px 0 0 0;
+}
+
+.content-brand li {
+  float: left;
+  width: 88px;
+  height: 45px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background: #fff;
+}
+
+.content-brand li .content-brand li img {
+  width: 90px;
+  height: 45px;
+  vertical-align: middle;
+  display: inline;
+  /* margin: 10px 0 0 0; */
+}
+
+.floor-hd {
+  height: 32px;
+  border-bottom: 1px solid #c9c9c9;
+  background-color: #fff;
+  margin-bottom: 4px;
+}
+
+.floor-hd h3 {
+  height: 18px;
+  width: 20%;
+  float: left;
+  line-height: 18px;
+  color: #3d4048;
+  font-size: 16px;
+  border-left: 4px solid #f00f34;
+  padding-left: 12px;
+  font-weight: bold;
+}
+
+.floor-hd ul {
+  float: right;
+  line-height: 32px;
+  margin-right: 20px;
+}
+
+.floor-hd ul li {
+  float: left;
+  margin-left: 50px;
+  font-size: 16px;
+  color: #2c2c2c;
+  cursor: pointer;
+  /* max-width: 100px; */
+  height: 32px;
+  position: relative;
+}
+
+.floor-hd ul li.active s {
+  display: block;
+}
+
+.floor-hd ul li s {
+  width: 10px;
+  height: 6px;
+  position: absolute;
+  top: 27px;
+  right: 42%;
+  background-image: url(http://www.zhongjiu.cn/Areas/Web/Images/himall_web_add.png);
+  background-repeat: no-repeat;
+  display: none;
+}
+
+.content-right-box {
+  float: left;
+  width: 950px;
+  background-color: #fff;
+}
+
+.content-right-img li {
+  float: left;
+  width: 230px;
+  height: 220px;
+}
+
+.content-right-img li.fore1 {
+  width: 470px;
+  height: 450px;
+  margin-right: 10px;
+}
+
+.content-right-img li.fore2, .content-right-img li.fore4 {
+  margin-right: 7px;
+}
+
+.content-right-img li.fore2, .content-right-img li.fore3 {
+  margin-bottom: 9px;
+}
+
+.content-right-img li.fore2, .content-right-img li.fore4 {
+  margin-right: 7px;
+}
+
+.content-right-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.floor .floor-content .Content2 li {
+  width: 230px;
+  height: 220px;
+  margin-right: 10px;
+  float: left;
+  margin-top: 10px;
+}
+
+.floor .floor-content .Content2 li:nth-of-type(2) {
+  width: 470px;
+  height: 220px;
+}
+
+.floor .floor-content .Content2 li:last-child {
+  margin-right: 0;
+}
+
+.floor .floor-content .content-right-tab li {
+  width: 160px;
+  height: 205px;
+  padding: 10px 15px;
+  border-right: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+  float: left;
+}
+
+.floor .floor-content .content-right-tab li .p-img {
+  width: 160px;
+  height: 160px;
+}
+
+.floor .floor-content .content-right-tab li .p-img img {
+  width: 160px;
+  height: 160px;
+}
+
+.floor .floor-content .content-right-tab li p {
+  padding-top: 5px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #f00f34;
+}
+
+.floor .floor-content .content-right-tab li h3 {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.floor .floor-content .content-right-tab li h3 a {
+  font-size: 12px;
+  color: #333333;
+  line-height: 20px;
+}
+
+.Brand-shop h3 {
+  font-size: 18px;
+  color: #3d4048;
+  height: 18px;
+  padding-bottom: 15px;
+  line-height: 18px;
+}
+
+.Brand-shop .BD-content {
+  height: 380px;
+  width: 1190px;
+}
+
+.Brand-shop .BD-content .BD-left, .Brand-shop .BD-content .BD-right {
+  width: 280px;
+  height: 350px;
+  float: left;
+}
+
+.Brand-shop .BD-content .BD-left img, .Brand-shop .BD-content .BD-right img {
+  width: 280px;
+  height: 350px;
+}
+
+.Brand-shop .BD-content .BD-mid {
+  width: 550px;
+  height: 307px;
+  border-top: 2px solid #f3f3f3;
+  border-bottom: 2px solid #f3f3f3;
+  float: left;
+  padding: 20px 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.Brand-shop .BD-content .BD-mid .bd-prev {
+  width: 26px;
+  height: 38px;
+  position: absolute;
+  background-image: url(http://www.zhongjiu.cn/Areas/Web/Images/Himall_admin.png);
+  background-repeat: no-repeat;
+  background-position: -4px 0;
+  cursor: pointer;
+  left: 7px;
+  top: 152px;
+}
+
+.Brand-shop .BD-content .BD-mid .bd-next {
+  width: 26px;
+  height: 38px;
+  position: absolute;
+  background-image: url(http://www.zhongjiu.cn/Areas/Web/Images/Himall_admin.png);
+  background-repeat: no-repeat;
+  background-position: -4px -40px;
+  cursor: pointer;
+  right: 7px;
+  top: 152px;
+}
+
+.Brand-shop .BD-content .BD-mid .BD-wrap {
+  width: 550px;
+  height: 306px;
+  overflow: hidden;
+}
+
+.Brand-shop .BD-content .BD-mid .BD-wrap .scroll-wrap {
+  height: 306px;
+  width: 10000px;
+  position: relative;
+}
+
+.Brand-shop .BD-content .BD-mid .BD-wrap .scroll-brand {
+  width: 550px;
+  height: 306px;
+  float: left;
+  position: relative;
+}
+
+.Brand-shop .BD-content .BD-mid .BD-wrap .scroll-brand li {
+  width: 110px;
+  height: 100px;
+  float: left;
+}
+
+.Brand-shop .BD-content .BD-mid .BD-wrap .scroll-brand li a {
+  width: 111px;
+  height: 62px;
+  margin-top: 20px;
+  display: inline-block;
+  background-image: url(http://www.zhongjiu.cn/Areas/Web/Images/brand_03.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.Brand-shop .BD-content .BD-mid .BD-wrap .scroll-brand li a img {
+  width: 100px;
+  height: 50px;
+  margin: 6px auto;
+}
