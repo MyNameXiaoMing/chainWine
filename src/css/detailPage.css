@@ -1,0 +1,468 @@
+.bg-g {
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+}
+
+.w {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  height: 40px;
+  line-height: 22px;
+  overflow: hidden;
+  vertical-align: baseline;
+  /* padding-left: 20px; */
+  background: #fff;
+  font-size: 14px;
+  padding: 12px 0 12px 20px;
+}
+
+.breadcrumb strong {
+  font-weight: normal;
+  line-height: 20px;
+}
+
+.breadcrumb strong a:link {
+  color: #333;
+}
+
+.breadcrumb span {
+  font-family: simsun;
+}
+
+.breadcrumb span a {
+  font-family: 'microsoft yahei';
+}
+
+#product-intro {
+  position: relative;
+  padding-left: 425px;
+  min-height: 500px;
+  background-color: #fff;
+  padding-top: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+#product-intro #name {
+  zoom: 1;
+  width: 490px;
+}
+
+#product-intro #name h1 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #222222;
+}
+
+#product-intro #name h1 strong {
+  display: block;
+  color: #ff0000;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#product-intro #summary {
+  float: left;
+  width: 490px;
+  font-size: 14px;
+}
+
+#product-intro #summary a {
+  color: #e3393c;
+}
+
+#product-intro #summary li {
+  padding: 8px 0;
+  overflow: hidden;
+}
+
+#product-intro #summary-promotion {
+  width: 100%;
+}
+
+#product-intro #summary-promotion .l {
+  width: 50px;
+  height: 100%;
+  text-align: left;
+  line-height: 26px;
+}
+
+#product-intro #summary-promotion .dt {
+  float: left;
+}
+
+#product-intro .l {
+  letter-spacing: 3px;
+}
+
+#product-intro .dt {
+  float: left;
+  width: 50px;
+}
+
+#product-intro .dd {
+  float: left;
+  line-height: 26px;
+}
+
+#product-intro .hl_red_bg {
+  color: #fff;
+  height: 20px;
+  width: 40px;
+  line-height: 20px;
+  margin-right: 25px;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+
+#summary-price .t {
+  background: url(http://www.zhongjiu.cn/Areas/Web/Images/price-info_bg.jpg);
+  height: 56px;
+  line-height: 56px;
+  text-align: right;
+}
+
+#summary-price .b {
+  height: 45px;
+  border-bottom: 1px dashed #cbcad0;
+  width: 100%;
+  padding-left: 20px;
+}
+
+#summary-price .b .dt {
+  margin-top: 10px;
+  float: left;
+}
+
+#summary-price .b .b-01 {
+  width: auto;
+  border-right: 1px solid #a49e9e;
+  padding: 0 30px;
+}
+
+#summary-price .b .b-02 {
+  width: 80px;
+  padding-left: 30px;
+}
+
+#summary-price .dt01 {
+  float: left;
+  font-size: 16px;
+}
+
+#summary-price .p-price {
+  color: #ee3e1b;
+  padding-left: 10px;
+  font-size: 26px;
+  font-family: microsoft yahei;
+  width: auto;
+  height: 31px;
+  border-right: 1px dotted #a49e9e;
+  line-height: 30px;
+  margin-top: 13px;
+  padding-right: 20px;
+}
+
+#product-intro #summary-promotion .l, #product-intro #summary-service .l, #product-intro #summary-service .l {
+  width: 50px;
+  height: 100%;
+  text-align: left;
+  line-height: 26px;
+}
+
+#summary-promotion .hl_red_bg {
+  background: url(http://www.zhongjiu.cn/Areas/Web/Images/product-details-icon.png) no-repeat 0 -20px;
+}
+
+.hl_red, a.hl_red, .hl_red:hover, .hl_red:visited, #summary .hl_red {
+  color: #2d2d2d;
+}
+
+.hl_red span {
+  color: #ff0000;
+}
+
+#summary-promotion {
+  height: 46px;
+  line-height: 46px;
+  font-size: 14px;
+}
+
+.choose {
+  float: left;
+  width: 490px;
+  margin-bottom: 70px;
+  border-top: 1px dashed #cbcad0;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.choose li {
+  overflow: hidden;
+  padding: 6px 0;
+}
+
+.choose #choose-result {
+  padding: 6px 0 0 0;
+  color: #e3393c;
+  border-bottom: 0;
+}
+
+.choose #choose-btns {
+  border-bottom: 0;
+  overflow: visible;
+  padding-top: 20px;
+}
+
+.choose .btn {
+  float: left;
+  height: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+#choose-btns .btn a {
+  position: relative;
+  font: 500 20px/38px "microsoft yahei";
+  text-align: center;
+  color: #fff;
+  float: left;
+  overflow: hidden;
+  line-height: 48px;
+  background-color: #ff4d50;
+  border-radius: 5px;
+  padding: 0 24px 0 15px;
+  text-decoration: none;
+}
+
+#choose-btns #choose-btn-append a {
+  line-height: 44px;
+  border: 2px solid #ff4d50;
+  color: #ff4d50;
+  height: 48px;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+#choose-amount .wrap-input {
+  position: relative;
+  padding: 0 35px;
+  float: left;
+}
+
+#choose-amount .wrap-input a {
+  position: absolute;
+  width: 30px;
+  height: 24px;
+  overflow: hidden;
+  border: 1px solid #c2c3c4;
+  text-align: center;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+#choose-amount .btn-reduce {
+  left: 0;
+}
+
+#choose-amount .btn-add {
+  left: 75px;
+}
+
+#choose-amount .text {
+  width: 30px;
+  height: 20px;
+  border: 1px solid #ccc;
+  padding: 2px;
+  text-align: center;
+}
+
+.right-side {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  z-index: 999;
+}
+
+.right-side-menu {
+  height: 100%;
+  width: 40px;
+  background-color: #2a2a2e;
+  position: relative;
+  float: left;
+}
+
+.right-side-menu ul {
+  position: absolute;
+}
+
+.right-side-menu ul s {
+  width: 20px;
+  border-bottom: 1px solid #505053;
+  display: block;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.right-side-menu li {
+  width: 40px;
+  height: 40px;
+  margin: 10px 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.right-side-menu li i {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.right-side-menu ul.menu-top {
+  top: 15%;
+}
+
+.right-side-menu ul.menu-bot {
+  bottom: 0;
+}
+
+.right-side-menu li.side-cart {
+  height: 120px;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.right-side-menu li.side-cart p {
+  color: #fff;
+  padding: 0 14px;
+  margin: 2px 0;
+}
+
+.right-side-menu li.side-cart em {
+  display: inline-block;
+  padding: -1px 3px;
+  min-width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  background-color: #e3393c;
+  color: #fff;
+}
+
+.right-side-menu li span {
+  display: none;
+  position: absolute;
+  right: 60px;
+  opacity: 0;
+  top: 0;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #494949;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+}
+
+.right-side-menu li .side-point {
+  display: none;
+  right: 40px;
+  top: 0;
+  width: 120px;
+  line-height: 30px;
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  background-color: #494949;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+}
+
+.right-side-menu li .side-point a {
+  background-color: #e3393c;
+  border-radius: 4px;
+  padding: 0 10px;
+  margin: 2px 0;
+  color: #fff;
+  display: inline-block;
+  line-height: 20px;
+}
+
+.right-side-menu li i s {
+  background: url(http://www.zhongjiu.cn/Areas/Web/Images/Himall_web.png) no-repeat;
+  border: none;
+  margin: auto;
+  position: relative;
+}
+
+.right-side-menu li i.user s {
+  display: block;
+  width: 19px;
+  height: 19px;
+  background-position: -1403px -26px;
+  top: 10px;
+}
+
+.right-side-menu li i.cart s {
+  display: block;
+  width: 16px;
+  height: 14px;
+  background-position: -1429px -0px;
+  top: 22px;
+}
+
+.right-side-menu li i.at-goods s {
+  display: block;
+  width: 17px;
+  height: 16px;
+  background-position: -1455px 0;
+  top: 12px;
+}
+
+.right-side-menu li i.history s {
+  display: block;
+  width: 19px;
+  height: 19px;
+  background-position: -1455px -26px;
+  top: 10px;
+}
+
+li#right_customer .customer {
+  background: none;
+}
+
+li#right_customer .customer {
+  display: block;
+  height: 38px;
+  width: 40px;
+}
+
+.right-side-menu ul li#right_customer s {
+  position: relative;
+  top: -10px;
+}
+
+.right-side-menu ul s {
+  width: 20px;
+  border-bottom: 1px solid #505053;
+  display: block;
+  margin-left: 10px;
+}
+
+li#right_customer .customer em {
+  font-size: 12px;
+  color: #d7d7d7;
+  width: 40px;
+  text-align: center;
+  display: block;
+}

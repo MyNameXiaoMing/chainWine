@@ -382,3 +382,90 @@
 #refilter .item li a {
   color: #6b6c6e;
 }
+
+.product_list {
+  width: 999px;
+  min-height: 2100px;
+  height: auto;
+}
+
+.product_list dl {
+  width: 219px;
+  padding: 7px;
+  font-family: arial, \5b8b\4f53;
+  height: 312px;
+  border: 1px dotted #ddd;
+  float: left;
+  margin-left: 11px;
+  margin-top: 11px;
+}
+
+.product_list dl img {
+  height: 218px;
+  width: 218px;
+}
+
+.r1 strong {
+  margin-left: 6px;
+  font-family: verdana;
+  font-size: 14px;
+  color: #f00f34;
+}
+
+.r1 span {
+  margin-right: 6px;
+  color: #6b6c6e;
+}
+
+.r1 span i {
+  color: #3cbcba;
+  padding: 0 2px;
+}
+
+.r3 {
+  font-size: 13px;
+  color: #333;
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-left: 6px;
+  margin-top: 10px;
+}
+
+.r4 {
+  height: 20px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-left: 6px;
+  text-decoration: none;
+  color: #666;
+}
+
+.page_l {
+  height: 45px;
+  line-height: 45px;
+  float: right;
+  margin-right: 50px;
+}
+
+.page_l span {
+  float: left;
+  margin-left: 12px;
+  display: block;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+  border: 1px solid #f5f5f5;
+  border-radius: 6px;
+}
+
+.page_l span.active {
+  background: #fff;
+  border: none;
+  color: #f60;
+  font-weight: 700;
+  margin-top: 1px;
+}

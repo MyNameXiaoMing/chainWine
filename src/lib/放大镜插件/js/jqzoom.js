@@ -3,11 +3,11 @@
 		// 默认配置
 		var _option = {
 			align: "left",				// 当前展示图片的位置，则放大的图片在其相对的位置
-			thumb_image_width: 400,		// 当前展示图片的宽
-			thumb_image_height: 400,	// 当前展示图片的高
-			source_image_width: 1200,  	// 放大图片的宽
-			source_image_height: 1200,	// 放大图片的高
-			zoom_area_width: 600, 		// 放大图片的展示区域的宽
+			thumb_image_width: 350,		// 当前展示图片的宽
+			thumb_image_height: 350,	// 当前展示图片的高
+			source_image_width: 700,  	// 放大图片的宽
+			source_image_height: 700,	// 放大图片的高
+			zoom_area_width: 350, 		// 放大图片的展示区域的宽
 			zoom_area_height: "justify",// 放大图片的展示区域的高
 			zoom_area_distance: 10,     // 
 			zoom_easing: true,          // 是否淡入淡出

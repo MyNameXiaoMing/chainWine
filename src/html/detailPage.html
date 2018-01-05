@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>详情页</title>
+    <script type="text/javascript" src="../lib/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="../lib/放大镜插件/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../lib/放大镜插件/js/jqzoom.js"></script>
+    <script type="text/javascript" src="../lib/fly-master/dist/jquery.fly.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/installStyle.css" />
+    <link rel="stylesheet" type="text/css" href="../css/detailPage.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/放大镜插件/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/放大镜插件/css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/放大镜插件/css/normalize.css" />
+    <style type="text/css">
+    /*.m-sidebar{position: fixed;top: 0;right: 0;background: #000;z-index: 2000;width: 35px;height: 100%;font-size: 12px;color: #fff;}*/
+    /*.cart{color: #fff;text-align:center;line-height: 20px;padding: 200px 0 0 0px;}*/
+    /*.cart span{display:block;width:20px;margin:0 auto;}*/
+    /*.cart i{width:35px;height:35px;display:block; background:url(car.png) no-repeat;}*/
+    /*#msg{position:fixed; top:300px; right:35px; z-index:10000; width:1px; height:52px; line-height:52px; font-size:20px; text-align:center; color:#fff; background:#360; display:none}*/
+
+    .box{float:left; width:198px; height:320px; margin-left:5px; border:1px solid #e0e0e0; text-align:center}
+    .box p{line-height:20px; padding:4px 4px 10px 4px; text-align:left}
+    .box:hover{border:1px solid #f90}
+    .box h4{line-height:32px; font-size:14px; color:#f30;font-weight:500}
+    .box h4 span{font-size:20px}
+    .u-flyer{display: block;width: 50px;height: 50px;border-radius: 50px;position: fixed;z-index: 9999;}
+    </style>
+   
+</head>
+<body>
+    <div class="bg-g">
+        <div id="catePath" class="w">
+            <div class="breadcrumb">
+                <strong><a>全部</a></strong>
+                <span>&nbsp;&gt;&nbsp;<a>白酒</a>&nbsp;&gt;&nbsp;<a>五粮液</a>&nbsp;&gt;&nbsp;<a>52°五粮液 500ml(普五水晶盒)</a></span>
+            </div>
+        </div>
+        <div class="w">
+            <div id="product-intro">
+                
+            
+                <div id="name">
+                    <h1>52°五粮液 500ml(普五水晶盒)</h1>
+                    <strong>五粮之精华，永恒之经典</strong>
+                </div>
+                <div class="cl" style="height:481px">
+                    <ul id="summary">
+                        <li id="summary-price">
+                            <div class="t">
+                                <div class="dt dt01">价格</div>
+                                <strong class="p-price dt">￥ <b id="jd-price">1099</b></strong>
+                                
+                            </div>
+                            <div class="b">
+                                <div class="b-01 dt">销量 &nbsp;&nbsp;<a id="saleCounts">8010瓶</a></div>
+                                <div class="b-01 dt">评价 &nbsp;&nbsp;<a id="Comments" href="#comment">127</a></div>
+                                <div class="dt b-02">评分：</div>
+                                <div class="dt summary-grade" style="margin-right:10px">
+                                    <span class="star"></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="summary-promotion">
+                            
+                            <div class="dt l l01" style="float:left;">促销</div>
+                            <div class="promotion-l" style="float:left;width:440px;">
+                                    <div style="margin-bottom:5px;line-height:28px"><em class="hl_red_bg">满免</em><em class="hl_red">单笔订单满<span>99.00</span>元免运费</em></div>
+                                <div id="buygift"></div>
+                                <div id="fullgift"></div>
+                            </div>
+
+
+                        </li>
+                        <li id="summary-service">
+                            <div class="dt l">库存</div>
+                            <div class="dd d03">
+                                <span id="stockProductImage" style="float:left;">有货</span>
+                            </div>
+                        </li>
+                        <li id="summary-service" style="width: 540px;">
+                            <div class="dt l" style="line-height: 26px;">物流</div>
+                            <div class="dd special">
+                                <span>配送至</span> &nbsp; <a class="address-choose" id="addressChoose" data-select="1944,1945,1945">广东省 广州市</a><span id="isCashOnDelivery">&nbsp;| &nbsp;支持货到付款</span>
+
+                            </div>
+                        </li>
+
+                        <li id="service" style="width:540px;">
+                            <div class="dt l" style="line-height: 26px;">服务</div>
+                            <div class="dd d03">
+                                <span style="float:left;">由 <a>中酒自营</a> 从北京发货，并提供售后服务</span>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <ul id="choose" class="choose">
+                        <li id="choose-amount" style="line-height: 26px;">
+                            <div class="dt l">数量</div>
+                            <div class="dd">
+                                <div class="wrap-input">
+                                    <a class="btn-reduce">-</a>
+                                    <a class="btn-add">+</a>
+                                    
+                                    <input class="text quantity-text" id="buy-num" value="1">
+                                </div>
+                            </div>
+                        </li>
+                        <li id="choose-result">
+                            <div class="dt"></div><div class="dd"><strong></strong><strong></strong></div>
+                        </li>
+                        <li id="choose-btns">
+                        
+
+                            <div id="DuiHuan" style="display:none;">
+                                <div id="choose-btn-buy" class="btn">
+                                    <a class="btn-append btn-order-now" name="" id="" href="#" style="background: rgb(194, 194, 194);">
+                                        <img src="#" style="width:25px;height:25px;margin-top:13px;margin-right:5px;">积分兑换</a>
+                                </div>
+                            </div>
+                            <div id="choose-btn-buy" class="btn">
+                                <a class="btn-append btn-order-now" name="OrderNow" id="OrderNow">
+
+                                    <img src="../img/lijig.png" style="width:25px;height:25px;margin-top:13px;margin-right:5px;float:left">立即购买</a>
+                            </div>
+                            <div id="choose-btn-append" class="btn">
+                                <a class="btn-append addcar" id="InitCartUrl" name="InitCartUrl" style="margin-left:40px;">
+                                    <img src="../img/gou.png" style="width:25px;height:25px;margin-top:11px;margin-right:5px;float:left">加入购物车</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="perview" style="position: absolute;top: 10px;left: 20px;width: 352px;">
+                   
+        
+                        <div class="htmleaf-content bgcolor-3">
+                            <div class="etalage_wrap">
+                                <ul id="etalage" style="border: 1px solid #ccc;width: 353px;height: 352px;">
+                                                <li>
+                                                    <img class="firstPic etalage_thumb_image" src="../img/1.png" height="430" width="430" title="first img" />
+                                                    <img class="etalage_big_image" src="../img/1.png"/>
+                                                </li>
+                                                <li>
+                                                    <img class="etalage_thumb_image" src="../img/2.png"/>
+                                                    <img class="etalage_big_image" src="../img/2.png"/>
+                                                </li>
+                                                <li>
+                                                    <img class="etalage_thumb_image" src="../img/3.png"/>
+                                                    <img class="etalage_big_image" src="../img/3.png"/>
+                                                </li>
+                                                <li>
+                                                    <img class="etalage_thumb_image" src="../img/4.png"/>
+                                                    <img class="etalage_big_image" src="../img/4.png"/>
+                                                </li>
+                                                <li>
+                                                    <img class="etalage_thumb_image" src="../img/5.png"/>
+                                                    <img class="etalage_big_image" src="../img/5.png"/>
+                                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="right-side">
+    <div class="right-side-menu">
+        <ul class="menu-top">
+            <li data-tag="user">
+                <i class="user" id="right_userCenter"><s></s></i>
+                <span style="display: none; right: 60px; opacity: 0;">个人中心</span>
+            </li>
+            <s></s>
+            <li data-tag="cart" arrow="" class="side-cart" id="right_cart">
+                <i class="cart"><s></s></i>
+                <p id="end">购物车</p>
+                <em>1</em>
+            </li>
+            <s></s>
+            <li data-tag="asset" arrow="" id="right_asset">
+                <i class="asset"><s></s></i>
+                <span>资产中心</span>
+                <div class="side-point">
+                    该店铺可领优惠券<br>
+                    <a>立即领取</a>
+                </div>
+            </li>
+            <li data-tag="at-goods" arrow="" id="right_goods">
+                <i class="at-goods"><s></s></i>
+                <span>关注商品</span>
+            </li>
+            <li data-tag="history" arrow="" id="right_history">
+                <i class="history"><s></s></i>
+                <span>浏览历史</span>
+            </li>
+
+                        <li data-tag="customer" id="right_customer">
+                            <s></s><i class="customer"><b></b><em>客服</em></i>
+                            <span>
+                                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3060023943&amp;site=qq&amp;menu=yes" title="妮妮">
+                                        <div class="online-service">
+                                            <i class="qq-img"></i>
+                                            <em>妮妮</em>
+                                        </div>
+                                    </a>
+                                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2642869011&amp;site=qq&amp;menu=yes" title="佳佳">
+                                        <div class="online-service">
+                                            <i class="qq-img"></i>
+                                            <em>佳佳</em>
+                                        </div>
+                                    </a>
+                            </span>
+                        </li>
+        </ul>
+        <ul class="menu-bot">
+            <li>
+                <i class="go-top"></i>
+                <span style="display: none; right: 60px; opacity: 0;">返回顶部</span>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- <div class="m-sidebar">
+    <div class="cart">
+        <i id="end"></i>
+        <span>购物车</span>
+    </div>
+</div> -->
+<div id="msg">已成功加入购物车！</div>
+<script>
+        var offset = $('#end').offset();  
+        var $addcar = $('.addcar');
+        $addcar.click(function (event) {  
+            var thisItem = $('.firstPic');
+            var flyer = thisItem.clone().css({"height":"50px","width":"50px","border-radius":"50%"});  
+            flyer.fly({  
+                start: {  
+                    left: event.pageX,  
+                    top: event.pageY  
+                },  
+                end: {  
+                    left: offset.left + 10,  
+                    top: offset.top + 60,  
+                    width: 0,  
+                    height: 0  
+                },  
+                onEnd: function () {  
+                    var $end = $('.end');
+                    
+                    setTimeout(function () {  
+                        
+                    }, 100);  
+                    this.destroy();
+
+                }  
+            });  
+        });  
+</script>
+<script type="text/javascript">
+$("#etalage").zoom({
+        zoom_area_width: 350,
+        autoplay_interval :3000,
+        small_thumbs : 5,
+        autoplay : true
+});
+</script>
+</body>
+</html>
