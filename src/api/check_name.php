@@ -14,8 +14,9 @@
          echo 1; 
     }else{
         // 释放查询内存(销毁)
+         echo "0"; 
         $result->free();
-        echo "0"; 
+       
     }
 
 

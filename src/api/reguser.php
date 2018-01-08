@@ -4,7 +4,7 @@
     //获取前端传递的数据
     $username = isset($_GET['username']) ? $_GET['username'] : null;
     $password = isset($_GET['password']) ? $_GET['password'] : null;
-    $email = isset($_GET['email']) ? $_GET['email'] : '';
+    // $email = isset($_GET['email']) ? $_GET['email'] : '';
 
     //编写sql语句
     //查看用户名是否已经存在
@@ -25,7 +25,7 @@
         $password = md5($password);
         // echo "$password";
 
-        $sql = "insert into user(username,password,email) value('$username','$password','$email')";
+        $sql = "insert into user(username,password) value('$username','$password')";
 
         $result = $conn->query($sql);
 
